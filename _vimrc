@@ -8,5 +8,8 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
+" 상태바
+Plugin 'vim-airline/vim-airline'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
